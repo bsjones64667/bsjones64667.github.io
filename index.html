@@ -1,12 +1,279 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Brandon Jones - e-Portfolio</title>
-  </head>
-  <body>
-    <h1>About Me</h1>
-    <h1>Co-op Experiences</h1>
-    <h1>Resume/Career Goals</h1>
-    <h1>Projects/Involvement/Leadership</h1>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Brandon Jones - e-Portfolio</title>
+  <script src="https://kit.fontawesome.com/b7c4f7f116.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+</head>
+
+<body>
+  <div class="navigation">
+    <div class="nav-container">
+      <a href="#home-page" class="nav-link">
+        Home
+      </a>
+      <a href="#about-page" class="nav-link">
+        About Me
+      </a>
+      <a href="#coop-page" class="nav-link">
+        Co-op Exp.
+      </a>
+      <a href="#resume-page" class="nav-link">
+        Resume
+      </a>
+      <a href="#projects-page" class="nav-link">
+        Projects
+      </a>
+      <a href="#reflection-page" class="nav-link">
+        Reflection
+      </a>
+    </div>
+  </div>
+  <div class="page" style="text-align: center;" id="home-page">
+    <h1 class="section-heading" main-header>Brandon Jones</h1>
+    <h3 class="section-heading" main-header-subtitle>Software Developer</h3>
+    <img profile-pic src="files/images/Resume-Pic.jpg">
+  </div>
+  <div class="page" id="about-page">
+    <h2>About Me</h2>
+    <p>
+      My name is Brandon Jones, and I am a student at the University of Cincinnati, class of 2024, pursing both my
+      Bachelors in Computer Science and my Masters in
+      Business Administration.
+      I have been coding for around 8 years. I have been involved in many different extracurriculars utilizing my coding
+      skills, including an FRC robotics team, both as the code team leader and as a mentor, Hour of Code events, and
+      code seminars.
+      I was also involved in various leadership groups in high school, including percussion section leader for the band
+      and the National Honor Society.
+      I have completed co-op rotations at Siemens DISW, where I work as a R&D developer in the Advanced Solutions team,
+      researching and implementing applications using new technology.
+    </p>
+    <p>
+      To contact me, you can send an email to either
+      <a class="link" href="mailto:jones4b9@mail.uc.edu">jones4b9@mail.uc.edu</a>
+      or
+      <a class="link" href="mailto:bsjones64667@gmail.com">bsjones64667@gmail.com</a>
+    </p>
+    <h3>Skills</h3>
+    <div lists>
+      <ul class="skills-list">
+        <li>Java</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Javascript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>MATLAB</li>
+        <li>VBA</li>
+        <li>Microsoft Office Suite</li>
+        <li>Google Suite</li>
+      </ul>
+      <ul class="skills-list">
+        <li>Web Development</li>
+        <li>Web Component Implementation</li>
+        <li>Web Component Testing & Debugging</li>
+        <li>Code Coverage Displays of Tests</li>
+        <li>Android Development</li>
+        <li>AR Usage & Development</li>
+        <li>Robotics</li>
+        <li>Hardware Installation</li>
+      </ul>
+      <ul class="skills-list">
+        <li>Leadership</li>
+        <li>Efficiency</li>
+        <li>Code Cleanliness</li>
+      </ul>
+    </div>
+  </div>
+  <div class="page" id="coop-page">
+    <h2>Co-op Experiences</h2>
+    <h3 class="co-op co-op-term">Co-op Term #1: Fall 2020</h3>
+    <h4 class="co-op">Siemens DISW, T&I - Advanced Solutions, R&D Developer</h4>
+    <p>
+      During this co-op with Siemens, I worked on initial stages of a new project, which involved using the Google Glass
+      EE2 to help virtualize work in wire harness factories. Some of my tasks included the following:
+      <ul>
+        <li>Conducted preliminary research into wire harness production & developed a outline of methodology to be used
+          with the application</li>
+        <li>Developed a sample application for the Glass EE2, using features such as basic UI development, gesture
+          features, and object recognition</li>
+        <li>Tested usage of ML and object recognition on the glass through TensorFlow models</li>
+        <li>Experimented with a wide array of potential applications to be used in the final product of the app</li>
+      </ul>
+      Some technical and nontechnical skills used during the rotation include the following:
+      <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+        <li>TensorFlow</li>
+        <li>Android Development</li>
+        <li>Machine Learning</li>
+        <li>AR</li>
+        <li>Research</li>
+        <li>Communication</li>
+        <li>Time Efficiency</li>
+      </ul>
+      The most important technical skill I learned was Android development, as the work I did throughout the semester
+      revolved around the Google Glass EE2, making Android development a necessary skill.
+      I learned a wide variety of app-creation techniques, which will be a good skill to have in my professional career
+      to be a well-rounded developer.
+    </p>
+    <p>
+      The most important nontechnical skill I learned was research, as I needed to set the foundations for our new
+      project, requiring many hours of researching potential implementations and use cases.
+      This is a very important skill, especially in R&D, to have in any field, and will be a valuable experience for my
+      overall research efficiency.
+    </p>
+    <h3 class="co-op co-op-term">Co-op Term #2: Summer 2021</h3>
+    <h4 class="co-op">Siemens DISW, T&I - Advanced Solutions, R&D Developer</h4>
+    <p>
+      During this co-op with Siemens, I worked on adding new components to our web library, used in a variety of our
+      web-based projects. Some components I implemented include a slider, code editor, navigation breadcrumbs, image
+      slider, and cards.
+      For each of these components, they were both manually tested and automatically tested via tests scripts I wrote to
+      ensure the component functionality after updates. Later, I added an additional feature to display code coverage on
+      the tests in our library, to measure the effectiveness of our tests.
+      Some of my tasks included the following:
+      <ul>
+        <li>Implement components based on design specifications supplied from the design team into the web library</li>
+        <li>Add various functionalities for components beyond standard functionalities available in public libraries
+        </li>
+        <li>Create tests to ensure correct functionality of components after updates to the codebase</li>
+        <li>Use a code coverage measurement script to create a command to display code coverage of tests to evaluate
+          effectiveness of said tests</li>
+        <li>Maintain components after release, fixing bugs when found by myself or other teammates and add requested
+          features</li>
+      </ul>
+      Some technical and nontechnical skills used during the rotation include the following:
+      <ul>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Component Implementation</li>
+        <li>Testing & Code Coverage</li>
+        <li>Component & Code Maintenance</li>
+        <li>Time Efficiency</li>
+        <li>Code Conformity & Cleanliness</li>
+      </ul>
+      The most important technical skill I learned was a combination of the web development languages (JavaScript, HTML,
+      CSS). These languages were the only languages that I used throughout the semester, and I became quite proficient
+      in them by the end of the term, after starting with little experience.
+      These are important skills to have as a full-stack developer, and were some of my favorite languages to work with.
+    </p>
+    <p>
+      The most important nontechnical skill I learned was code conformity and cleanliness, as my mentor was very strict
+      on code formatting and conformity to the library, to ensure that the library was easy to understand and edit.
+      This is a very useful skill to have, not just in coding, but in data management and organization, and refining
+      this skill will be very beneficial for future positions and will make me a developer people want to work with.
+    </p>
+  </div>
+  <div class="page" id="resume-page">
+    <h2>Resume/Career Goals</h2>
+    <h3>Career Goals</h3>
+    <p style="margin-bottom: 50px;">My short term goals for my career are to become an efficient full-stack developer,
+      with a wide range of skills and proficient languages. I hope to become a research developer after graduation. My
+      long term goal is to either become a CTO at a reputable tech company or open my own tech startup.</p>
+    <div style="text-align: center;">
+      <a resume-button href="./files/BrandonJonesResume.pdf" target="_blank">Resume</a>
+    </div>
+  </div>
+  <div class="page" id="projects-page">
+    <h2>Projects/Involvement/Leadership</h2>
+    <h3>Projects</h3>
+    <h4 class="co-op">Web Components Library</h4>
+    <ul>
+      <li>Worked on adding various web components to the Siemens AS web library, including a slider, code editor,
+        navigation breadcrumbs, image slider, and cards</li>
+      <li>Tested and maintained components</li>
+      <li>Learned web development and testing skills throughout the project</li>
+    </ul>
+    <h4 class="co-op">Wire Harness Test EWI Application</h4>
+    <ul>
+      <li>Worked on creating a outline for a future application for use in a project at Siemens</li>
+      <li>Used Android development techniques to create an outline UI and gestures for a Google Glass EE2 application to
+        be continued by a future co-op</li>
+      <li>Learned Android development and AR while creating the application</li>
+    </ul>
+    <!-- TODO: Add in more projects -->
+    <p>Further projects can be found at my
+      <a class="link" href="https://github.com/bsjones64667" target="_blank">GitHub</a>
+    </p>
+    <h3>Involvement</h3>
+    <h4 class="co-op">FRC Robotics Team - ScotBot 4284, Spring 2019</h4>
+    <ul>
+      <li>Competed with the ScotBot 4284 FRC robotics team during the 2019 season</li>
+      <li>Worked as the code team leader and was responsible for many of the robot's core features, such as movement and
+        sensors</li>
+      <li>Worked as the team captain and coach during events, responsible for strategy and representing the team during
+        competition</li>
+    </ul>
+    <h4 class="co-op">National Honor Society, 2017 - 2019</h4>
+    <ul>
+      <li>Member of the NHS 2nd-4th year of high school for continuing to maintain a 4.0 GPA</li>
+      <li>Participated in community service for each semester</li>
+    </ul>
+    <h3>Leadership</h3>
+    <h4 class="co-op">Code Team Leader, Team Captain & Coach, FRC ScotBot 4284, 2018-2019</h4>
+    <h4 class="co-op">Percussion Section Leader, OHHS Band, 2018-2019</h4>
+    <ul>
+    </ul>
+  </div>
+  <div class="page" id="reflection-page">
+    <h2>Summative Reflection</h2>
+    <p>
+      Throughout my academic and professional journey, I have grown tremendously, from a kid who wanted to code just
+      because he enjoyed video games, to joining the robotics team in high school and becoming the code captain, and
+      finally starting co-ops at one of the most prestigious tech companies in the world.
+      I have learned many new skills, particularly from my robotics team, and especially from my co-op terms. Both of
+      these experiences not only taught me new skills, such as basic robotics coding, Android development, and web
+      development, and allowed me to work with technology I would never be able to work with otherwise, but improved my
+      teamwork and leadership teams, and taught me how to be a developer that others want to work with.
+      I am very excited to continue to learn new skills and expand my network, and continue to strive to be a developer
+      and a person people enjoy working with, and hopefully will be able to use my business skills in a position in the
+      future.
+    </p>
+    <p>
+      Through the co-op experience, I have learned new skills much faster than I would otherwise be able to. It has been
+      a very positive experience and given me a chance to use the skills I have learned in school in a professional
+      environment.
+      During my co-ops with Siemens, I have done both Android development with the Google Glass EE2 and web development
+      for components in our web library, two areas that I was unfamiliar with before starting to co-op. These have given
+      me an invaluable opportunity to learn from professional developers like my mentor, and I have learned much quicker
+      than if I was at school.
+      Overall, my co-op experience has been very educational for both my technical and nontechnical skill development,
+      and allowed me to work with accomplished developers and learn from the best.
+    </p>
+    <p>
+      The co-op program has been both fulfilling and affirming for me in my professional career. Before co-oping, I had
+      never developed in a professional environment, so being granted the opportunity to do this was very helpful in
+      determining that development was the career I wanted to pursue.
+      The co-op program was also fulfilling, as I felt that my work actually mattered for the team, and I wasn't just
+      given filler tasks. I worked on real projects with my mentors, and was given feedback from both my team and other
+      teams for some of them. I am very proud of the work I did during my terms, and I hope to continue this
+      high-quality work in the future.
+    </p>
+    <p>
+      If I was to start over again, the only thing I would change is to be in-person for my co-ops instead of online. I
+      learn much better in a physical environment, so if I wasn't restricted by COVID, I would want to do my terms
+      in-person.
+    </p>
+    <p>
+      For my remaining co-op terms, I want to focus on learning new skills each semester. One of my short-term goals is
+      to be a full-stack developer, which will require me to have a wide skillset. I do not want to do the same thing in
+      any two co-op terms, to continue to expand my knowledge base.
+      I also want to expand my network, and try to branch out to create many connections as possible. Networking is an
+      incredibly important part of professional development, especially business, and if I want to become a CTO one day,
+      I need to create these connections.
+    </p>
+  </div>
+  <div footer>
+    <!-- TODO: Create buttons for social platforms here -->
+    <a class="nav-link" href="https://www.linkedin.com/in/brandonjones19/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
+    <a class="nav-link" href="https://github.com/bsjones64667" target="_blank"><i class="fab fa-2x fa-github"></i></a>
+    <a class="nav-link" href="mailto:bsjones64667@gmail.com"><i class="fas fa-2x fa-envelope-square"></i></a>
+  </div>
+</body>
+
 </html>

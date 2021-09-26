@@ -1,111 +1,137 @@
 .section-heading {
-	text-align: center;
+  text-align: center;
 }
 
-html, body {
-	margin: 0;
-	height: 100vh;
+html,
+body {
+  margin: 0;
+  height: 100vh;
 }
 
-p, h1, h2, h3, h4, li, a {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+p,
+h1,
+h2,
+h3,
+h4,
+li,
+a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 [main-header] {
-	font-size: 48px;
+  font-size: 48px;
 }
 
 [main-header-subtitle] {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 .co-op {
-	margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 
 .co-op-term {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .link {
-	color: #3282B8;
+  color: #3282B8;
 }
 
 [resume] {
-	text-align: center;
+  text-align: center;
 }
 
 [resume-viewer] {
-	width: 100%;
-	height: 500px;
-	border: 3px solid #3282B8;
-	box-sizing: border-box;
+  width: 100%;
+  height: 500px;
+  border: 3px solid #3282B8;
+  box-sizing: border-box;
 }
 
 .page {
-	min-height: 95vh;
-	margin: 0;
-	position: relative;
-	padding-top: 5vh;
-	padding-bottom: 5vh;
-	padding-left: 15vw;
-	padding-right: 15vw;
-	color: white;
+  min-height: 95vh;
+  margin: 0;
+  position: relative;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  color: white;
 }
 
 [footer] {
-	height: 50px;
-	position: relative;
-	background-color: #1B262C;
-	text-align: center;
+  height: 50px;
+  position: relative;
+  background-color: #1B262C;
+  text-align: center;
 }
 
 .skills-list {
-	float: left;
+  float: left;
 }
 
 .page:nth-child(odd) {
-	background-color: #515151;
+  background-color: #515151;
 }
 
 .page:nth-child(even) {
-	background-color: #121212;
+  background-color: #121212;
 }
 
 [lists] {
-	display: flex;
-	justify-content: left;
+  display: flex;
+  justify-content: left;
 }
 
 .navigation {
-	margin-top: 0;
-	padding: 10px;
-	background-color: #0F4C75;
-	position: fixed;
-	top: 0;
-	width: 100vw;
-	z-index: 1;
-	text-align: center;
+  margin-top: 0;
+  padding: 10px;
+  background-color: #0F4C75;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+  text-align: center;
 }
 
 .nav-container {
-	margin: auto;
+  margin: auto;
 }
 
 [profile-pic] {
-	width: 500px;
-	height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
 .nav-link {
-	color: white;
-	font-size: 16px;
-	margin: 0px 2px;
-	padding: 10px 12px 10px 18px;
-	top: 5px;
-	position: relative;
-	z-index: 0;
-	cursor: pointer;
-	opacity: 1;
-	text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin: 0px 2px;
+  padding: 0px 12px 5px 18px;
+  top: 5px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3282B8;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
